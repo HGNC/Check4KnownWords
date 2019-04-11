@@ -4,8 +4,10 @@ use lib qw{./lib/perl5};
 use local::lib qw{./lib/perl5};
 use Getopt::Long qw(GetOptions);
 use Pod::Usage qw(pod2usage);
-use Modern::Perl;
 use Symbol2Dict::DictionaryDB;
+
+use strict;
+use warnings;
 
 my ( $help, $man ) = ( 0, 0 );
 my ( @dicts, @files );

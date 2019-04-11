@@ -1,7 +1,8 @@
 package Symbol2Dict::DictionaryDB;
 
-use Modern::Perl;
 use Symbol2Dict::DBI;
+use strict;
+use warnings;
 
 my %Attributes = ( dictionaries => 1 );
 
@@ -57,7 +58,7 @@ sub look_for {
   my $sth  = $self->dbcon->dbh->prepare( $self->sql );
   $sth->execute( ($word) x scalar( @{ $self->dictionaries } ) );
   foreach my $dictWord ( @{ $sth->fetchall_arrayref( {} ) } ) {
-    say $word;
+    print "$word\n";
     last;
   }
 }
@@ -82,7 +83,7 @@ sub _build_dict_query {
     }
   }
 
-  say sprintf 'Using the following dictionaries: %s', join ', ', @using;
+  print sprintf "Using the following dictionaries: %s\n", join ', ', @using;
   return join ' UNION ', @sql;
 }
 

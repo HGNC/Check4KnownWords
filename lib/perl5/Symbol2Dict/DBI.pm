@@ -1,6 +1,8 @@
 package Symbol2Dict::DBI;
 
 use DBI;
+use strict;
+use warnings;
 
 my %Attributes = ();
 

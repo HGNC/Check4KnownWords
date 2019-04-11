@@ -1,4 +1,3 @@
 requires 'local::lib';
-requires 'DBI', '>= 1.642';
-requires 'Modern::Perl';
+requires 'DBI';
 requires 'DBD::SQLite';
