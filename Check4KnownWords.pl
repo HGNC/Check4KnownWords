@@ -42,6 +42,7 @@ dictionaries to see if the words exists in the dictionaries.
 =head1 SYNOPSIS
 
 ./Check4KnownWords.pl --dictionary=us --dictionary=gb --file=words1.txt --file=words2.txt
+  
   Options:
     --help           Brief help message.
     --man            Full documentation.
@@ -76,6 +77,7 @@ Prints the manual page and exits.
 =item B<--dictionary>
 
 Dictionary type which can be one of the following:
+
     au               for Australian dictionary
     ca               for Canadian dictionary
     gb               for British dictionary
