@@ -1,0 +1,4 @@
+Using the following dictionaries: ca
+color
+colour
+yogourt

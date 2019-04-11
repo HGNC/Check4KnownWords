@@ -1,0 +1,10 @@
+.DS_STORE
+._.DS_STORE
+bin
+man
+tmp
+lib/*
+!lib/perl5
+lib/perl5/*
+!lib/perl5/Symbol2Dict
+words.txt

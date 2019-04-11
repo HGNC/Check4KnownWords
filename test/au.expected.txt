@@ -1,0 +1,4 @@
+Using the following dictionaries: au
+color
+colour
+devo

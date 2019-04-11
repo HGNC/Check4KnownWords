@@ -1,0 +1,6 @@
+Using the following dictionaries: au, ca, gb, gbize, us
+color
+colour
+devo
+yogourt
+calk
