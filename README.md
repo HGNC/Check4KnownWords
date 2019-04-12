@@ -60,6 +60,14 @@ If you haven't install git or xcode and you initiate a `git clone`, your mac
 may ask you to install xcode. Please install this app and try to `git clone`
 once again.
 
+## REQUIREMENTS
+
+In order to install and run this script you will need the following:
+  - A mac or a linux machine.
+  - Git installed (Mac users see the Mac users section above).
+  - Git-lfs (https://git-lfs.github.com) installed.
+  - Must have perl ≥ 5.20.0.
+
 ## INSTALL
 
 To install this command line tool, clone this project into your directory of choice:
