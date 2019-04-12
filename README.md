@@ -52,21 +52,17 @@ The path of the txt file that contains a list of words
 
 ## REQUIREMENTS
 
-This will only work for macs and linux machines. Git must be installed.
+In order to install and run this script you will need the following:
+  - A mac or a linux machine.
+  - Git installed (Mac users see the Mac users section below).
+  - Git-lfs (https://git-lfs.github.com) installed.
+  - Must have perl ≥ 5.20.0.
 
 ### Mac users
 
 If you haven't install git or xcode and you initiate a `git clone`, your mac
 may ask you to install xcode. Please install this app and try to `git clone`
 once again.
-
-## REQUIREMENTS
-
-In order to install and run this script you will need the following:
-  - A mac or a linux machine.
-  - Git installed (Mac users see the Mac users section above).
-  - Git-lfs (https://git-lfs.github.com) installed.
-  - Must have perl ≥ 5.20.0.
 
 ## INSTALL
 
